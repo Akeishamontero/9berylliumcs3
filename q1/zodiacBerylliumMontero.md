@@ -40,4 +40,5 @@ else:
 
 ## Output
 
-![alt text](image.png)
+![alt text](image<img width="1366" height="729" alt="image" src="https://github.com/user-attachments/assets/36580e69-e49c-4a36-9fa8-c98fa773c2ec" />
+.png)
