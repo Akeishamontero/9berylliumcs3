@@ -54,9 +54,7 @@ The school canteen's ordering process suffers from an inefficient and slow order
                       | the important informati-| how many servings left until unavailable|
                       | on needed to know what  | also an alert to measure if it can still|                           
                       | food is available.      | be ordered or running low on stocks.    |                             
-||||
-||||
-
+--- 
 
 ## Step 4: Algorithmic Solution
 
