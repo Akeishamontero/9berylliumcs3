@@ -12,10 +12,10 @@ README.MD
 ## Activities
 
 ### Computational Thinking Skills
-[View my Computational Thinking Exercise!] (q1/ctskillsBerylliumMontero.md)
+[View my Computational Thinking Exercise!](q1/ctskillsBerylliumMontero.md)
 
 ### Chinese Zodiac
-[View my Chinese Zodiac Exercise!] (q1/zodiacBerylliumMontero.md)
+[View my Chinese Zodiac Exercise!](q1/zodiacBerylliumMontero.md)
 
 ### Object-Oriented PROGRAM
-[View my OOP Exercise!] (q1/ila_oop.md)
+[View my OOP Exercise!](q1/ila_oop.md)
