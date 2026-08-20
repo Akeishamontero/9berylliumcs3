@@ -26,34 +26,13 @@ The school canteen's ordering process suffers from an inefficient and slow order
 
 ## Step 3: Define Computational Thinking Approaches
 
-|     Sub-Problem     |        CT Skill         |            Proposed Solution           |
+| Sub-Problem | CT Skill | Proposed Solution |
+|---|---|---|
+| Slow Menu Decisions | Pattern Recognition can help identify which meals students choose more often, making it easier to organize the menu around popular choices. | Identify the food items that students commonly order and display their names and prices clearly so students can decide faster. By identifying popular choices, we can create a digital menu that highlights meals, shows clear prices, and lets students decide what they want before reaching the cashier. |
+| Checkout Processing Delays | Algorithm Design helps create a clear set of steps that can calculate totals and changes quickly and accurately. | A proposed solution could be using a smart checkout system that automatically sums up prices and calculates the change without creating human errors that could slow down the process. |
+| Canteen Overcrowding | Decomposition helps break the overcrowding problem into smaller parts that are easier to manage. | We can create separate areas for ordering, waiting, and collecting food, with a simple queue system to keep students moving smoothly. |
+| Tracking Food Inventory | Abstraction helps the system focus only on the important information needed to know what food is available. | By using a digital inventory tracker that shows each food item, its price, and how many servings are left, the system can indicate when an item is unavailable or running low on stock. |                             
 
-| Slow Menu Decisions | Pattern Recognition can |  Identify the food items that students  |
-                      | helps identify which me-| commonly order and display their names  |
-                      | als students choose more| and prices clearly so students can deci-|
-                      | often, making it easier | de faster. By identifying we can create |                           
-                      | to organize the menu ar-| a digital menu that highlights meals    |
-                      | ound popular choices.   | shows clear prices, and let students    |
-                      |                         | decide what they want before reaching   |
-                      |                         | the cashier.                            |
-
-| Checkout Processing | Algorithm Design helps  |  A proposed solution could be using a   |
-  Delays              | create a clear set of   | smart checkout system that automatically|
-                      | steps that can calculate| sums up prices, calculates the change   |
-                      | totals and changes qui- | without creating human errors that could|                           
-                      | ckly and accurately.    | slow down the process.                  |
-                                             
-| Canteen Overcrowding| Decomposition helps     |  We can create seperate areas for order-|
-                      | break the overcrowding  | ing, waiting and collecting food, with a|
-                      | problem into smaller    | simple queue system to keep students    |
-                      | parts that are easier to| moving smoothly.                        |                           
-                      | manage                  |                                         |
-                 
-| Tracking Food       | Abstraction helps the   |  By using a digital inventory tracker   |
-  Inventory           | system to focus only on | that shows each food item, its price and|
-                      | the important informati-| how many servings left until unavailable|
-                      | on needed to know what  | also an alert to measure if it can still|                           
-                      | food is available.      | be ordered or running low on stocks.    |                             
 --- 
 
 ## Step 4: Algorithmic Solution
