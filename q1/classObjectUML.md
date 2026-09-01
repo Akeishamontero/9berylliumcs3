@@ -22,7 +22,7 @@
 ---
 ## Design Explanation
 ### Why did you choose this class?
-*I chose this class because I picked the context Computer laboratory and also because it can apply in our daily lives, serve as updates, and a place to learn. Not only that, but I thought of apps because of my genuine interest in technology, and the apps that I use to benefit myself and others.
+*I chose this class because I picked the context Computer laboratory and also because it can apply in our daily lives, serve as updates, and a place to learn. Not only that, but I thought of apps because of my genuine interest in technology, and the apps that I use to benefit myself and others.*
 ### Which property is the most important? Why?
 *The most important property is the name because without the name you wouldn't know the app. Also because it serves at the core foundation of the identity of the app*
 ### Which method is the most useful? Why?
