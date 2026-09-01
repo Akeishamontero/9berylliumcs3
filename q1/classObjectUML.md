@@ -19,7 +19,7 @@
 | Launch() | Opens the application and it loads the user's interface. |
 ---
 ## Class Diagram
-![Class Diagram](<img width="1414" height="2000" alt="2025" src="https://github.com/user-attachments/assets/09c56ac9-db99-4080-a5f5-99a4876eaee5" />)
+![Class Diagram](q1/Montero_OOPAct.png)
 ---
 ## Design Explanation
 ### Why did you choose this class?
