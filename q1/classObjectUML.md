@@ -13,7 +13,7 @@
 ---
 ## Methods
 | Method | Description |
-|---|---|| | |
+|---|---|
 | Download()  | The user can download the app to access the content and features. |
 | Updateversion(versionNumber : string) | It updates the app to a specified version where there might be changes. |
 | Launch() | Opens the application and it loads the user's interface. |
