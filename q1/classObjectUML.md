@@ -18,7 +18,7 @@
 | Launch() | Opens the application and it loads the user's interface. |
 ---
 ## Class Diagram
-[Class Diagram](https://github.com/Akeishamontero/9berylliumcs3/blob/main/q1/Montero_OOPAct.png)
+[Class Diagram!](https://github.com/Akeishamontero/9berylliumcs3/blob/main/q1/Montero_OOPAct.png)
 ---
 ## Design Explanation
 ### Why did you choose this class?
