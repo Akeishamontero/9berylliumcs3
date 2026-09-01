@@ -1,8 +1,7 @@
 # SG4 - Understanding Classes and Objects
-## Class name
-*Apps*
-## Class description
-*These apps signifiy of how people frequently used them and how this helps in everyday lives. This also benefits us by creating and inventing useful technology that makes us learn in different fields and encourages us to be productive.*
+## Apps
+## These apps signifiy of how people frequently used them and how this helps in everyday lives. This also benefits us by creating and inventing useful technology that makes us learn in different fields and encourages us to be productive.
+
 ## Properties
 | Property | Data Type | Description |
 |---|---|---|
@@ -19,7 +18,7 @@
 | Launch() | Opens the application and it loads the user's interface. |
 ---
 ## Class Diagram
-![Class Diagram]([q1/Montero_OOPAct.png](https://github.com/Akeishamontero/9berylliumcs3/blob/main/q1/Montero_OOPAct.png)
+![Class Diagram](https://github.com/Akeishamontero/9berylliumcs3/blob/main/q1/Montero_OOPAct.png)
 ---
 ## Design Explanation
 ### Why did you choose this class?
