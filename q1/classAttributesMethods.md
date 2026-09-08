@@ -27,6 +27,7 @@ Link to my previous activity:
 ---
 ## Test Run
 ![Test Run](images/classTestRun.png)
+![Test Run](images/classTestRun2.png)
 ---
 ## Object Diagram
 ![Object Diagram](images/objectDiagram.png)
