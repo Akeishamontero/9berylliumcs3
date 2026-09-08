@@ -20,7 +20,7 @@ Link to my previous activity:
 
 ---
 ## Updated UML Class Diagram
-![Class Diagram](q1/Montero_OOPActPart2.png)
+![Class Diagram](Montero_OOPActPart2.png)
 ---
 ## Python Implementation
 [View Python Source](classImplementation.py)
