@@ -14,10 +14,13 @@ Link to my previous activity:
 | Name | String | Public | It should be public, so that people can search for the title and download the app. |
 | Developer | String | Private | It should be private because the developer might want to stay mysterious. |
 |Price |Float |Public | It is public to show the buyers of the app how much it costs. |
-| Available | Boolean | Public | It is public because if the app is still available or not, so the users would be updated. |
+| Available | Boolean | Public | It is public because it shows if the app is still available or not, so the users would be updated. |
+| Profile | String | Public | It is public so that users can know your identity that you inputed. |
+| Settings | String | Private | It is private because the settings will only be seen for you, so you can customize your experience and check for problems. |
+
 ---
 ## Updated UML Class Diagram
-![Class Diagram](images/classDiagramSG5.md)
+![Class Diagram](q1/Montero_OOPActPart2.png)
 ---
 ## Python Implementation
 [View Python Source](classImplementation.py)
