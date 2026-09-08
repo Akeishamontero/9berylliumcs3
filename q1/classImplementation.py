@@ -33,9 +33,9 @@ class APPS:
      print("Profile:", self.profile)
 
 # Create Objects
-object1 = APPS("Among Us", "Innersloth", 4.99, True, "Player467", "Light mode")
-object2 = APPS("Minecraft", "Mojang", 6.99, True, "Gamergirl123", "Dark Mode")
-object3 = APPS("Tiktok", "Zhang Yiming", 0, True, "Starrynights11", "Dark Mode")
+object1 = APPS("Among Us", "Innersloth", 4.99, True, "Light mode", "Player467")
+object2 = APPS("Minecraft", "Mojang", 6.99, True, "Dark Mode", "Gamergirl123")
+object3 = APPS("Tiktok", "Zhang Yiming", 0, True, "Dark Mode", "Starrynights11")
 
 #Implementing Methods
 print("APPS")
