@@ -17,7 +17,7 @@ Link to my previous activity:
 | Available | Boolean | Public | It is public because if the app is still available or not, so the users would be updated. |
 ---
 ## Updated UML Class Diagram
-![Class Diagram](q1/(images/Montero_OOPActPart2.md)
+[Class Diagram](q1/(images/Montero_OOPActPart2.md).
 ---
 ## Python Implementation
 [View Python Source](classImplementation.py)
