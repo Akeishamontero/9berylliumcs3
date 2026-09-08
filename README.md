@@ -23,3 +23,6 @@ README.MD
 ### OOPAct 
 [View my OOPAct Exercise!](q1/classObjectUML.md)
 
+### OOPActPart2
+[View my OOPAct Exercise!](q1/classAttributesMethods.md)
+
