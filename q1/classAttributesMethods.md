@@ -12,7 +12,7 @@ Link to my previous activity:
 | Attribute | Data Type | Visibility | Reason |
 |---|---|---|---|
 | Name | String | Public | It should be public, so that people can search for the title and download the app. |
-| Developer | String | Private | It should be private because the developer might want to stay mysterious. |
+| Developer | String | Public | It should be public because the developer must be known as the developer of the app and credits. |
 |Price |Float |Public | It is public to show the buyers of the app how much it costs. |
 | Available | Boolean | Public | It is public because it shows if the app is still available or not, so the users would be updated. |
 | Profile | String | Public | It is public so that users can know your identity that you inputed. |
