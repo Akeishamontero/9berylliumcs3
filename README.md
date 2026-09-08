@@ -24,5 +24,5 @@ README.MD
 [View my OOPAct Exercise!](q1/classObjectUML.md)
 
 ### OOPActPart2
-[View my OOPAct Exercise!](q1/classAttributesMethods.md)
+[View my OOPAct Part 2 Exercise!](q1/classAttributesMethods.md)
 
