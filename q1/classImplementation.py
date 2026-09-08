@@ -1,35 +1,36 @@
 class APPS:
-def __init__(self, name, developer, price, available, settings, profile):
-self.name = name
-self.developer = developer
-self.__settings = settings
-self.available = available
-self.profile = profile
-self.price = price
 
-def Launch(self):
+ def __init__(self, name, developer, price, available, settings, profile):
+  self.name = name
+  self.developer = developer
+  self.__settings = settings
+  self.available = available
+  self.profile = profile
+  self.price = price
+
+ def Launch(self):
     print(self.name, "has been launched.")
 
-def Updateversion(self, versionNumber, string):
+ def Updateversion(self, versionNumber, string):
     self.__settings = string
     print(self.name, "has been updated to version", versionNumber)
 
-def Download(self):
-    if self.available:
+ def Download(self):
+     if self.available:
         print(self.name, "is downloading.")
-    else:
+     else:
         print(self.name, "is not available for download.")
 
-def get_settings(self):
-    return self.__settings
+ def get_settings(self):
+     return self.__settings
 
 
-def display_info(self):
-    print("App Name:", self.name)
-    print("Developer:", self.developer)
-    print("Price:", self.price)
-    print("Available:", self.available)
-    print("Profile:", self.profile)
+ def display_info(self):
+     print("App Name:", self.name)
+     print("Developer:", self.developer)
+     print("Price:", self.price)
+     print("Available:", self.available)
+     print("Profile:", self.profile)
 
 # Create Objects
 object1 = APPS("Among Us", "Innersloth", 4.99, True, "Player467", "Light mode")
