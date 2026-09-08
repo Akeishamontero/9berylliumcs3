@@ -38,3 +38,40 @@ object3 = APPS("Tiktok", "Zhang Yiming", 0, True, "Starrynights11", "Dark Mode")
 
 #Implementing Methods
 print("APPS")
+
+print("--- BEFORE ---")
+
+print("Object 1:")
+object1.display_info()
+
+print("Object 2:")
+object2.display_info()
+
+print("Object 3:")
+object3.display_info()
+
+
+# Using methods on Object 1
+print("--- IMPLEMENTING METHODS ---")
+
+print("Launching Object 1:")
+object1.Launch()
+
+print("Downloading Object 1:")
+object1.Download()
+
+print("Updating Object 1:")
+object1.Updateversion("2.0", "Dark Mode")
+
+
+# Show that only Object 1 changed
+print("--- AFTER ---")
+
+print("Object 1:")
+object1.display_info()
+
+print("Object 2:")
+object2.display_info()
+
+print("Object 3:")
+object3.display_info()
