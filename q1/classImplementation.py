@@ -44,9 +44,11 @@ print("--- BEFORE ---")
 
 print("Object 1:")
 object1.display_info()
+print()
 
 print("Object 2:")
 object2.display_info()
+print()
 
 print("Object 3:")
 object3.display_info()
