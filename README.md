@@ -27,5 +27,5 @@ README.MD
 [View my OOPAct Part 2 Exercise!](q1/classAttributesMethods.md)
 
 ### OOPAct Part 3
-[View my OOPAct Part 3 Exercise!](q1/jh.md)
+[View my OOPAct Part 3 Exercise!](q1/classRelationships.md)
 
