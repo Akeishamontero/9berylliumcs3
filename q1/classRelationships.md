@@ -4,7 +4,7 @@
 [Part II - Class Attributes and Methods](classAttributesMethods.md)
 ---
 ## Existing Class
-Class: Apps
+Class: APPS
 
 Description: My class can function for different needs; entertainment, communication, education or other purposes.
 
@@ -13,9 +13,9 @@ Description: My class can function for different needs; entertainment, communica
 ---
 
 ## New Related Class
-Class: Devices
+Class: DEVICE
 
-Description: Devices are electronic equipment that people use to do research, to communicate, to entertain or access digital services. Devices can vary in sizes, capabilities and intended purposes.
+Description: DEVICE is an electronic equipment that people use to do research, to communicate, to entertain or access digital services. Devices can vary in sizes, capabilities and intended purposes.
 
 #### Why should these two classes be connected?
 
@@ -24,14 +24,14 @@ Description: Devices are electronic equipment that people use to do research, to
 ## Association
 Relationship: DEVICE CONTAINS APPS
 
-Explanation: The relationship of devices and apps are that they are both technology-related. Devices are used to run apps or mobile application to access digital services and online features. A device provides the hardware and operating system needed for applications to run. 
+Explanation: The relationship of a DEVICE and APPS are that they are both technology-related. Devices are used to run apps or mobile application to access digital services and online features. The class DEVICE provides the hardware and operating system needed for APPS to run. 
 
 ---
 
 ## Multiplicity
-Multiplicity: One to Many Device 1 ───────── 0..* Apps
+Multiplicity: One to Many DEVICE 1 ───────── 0..* APPS
 
-Explanation: A device is an electronic that you can download applications on, there are many apps that contains different features, functions and limits. Inside one device are many applications to compromise of a device.
+Explanation: A DEVICE is an electronic that you can download applications on, there are many APPS that contains different features, functions and limits. Inside one device are many applications to compromise of a device.
 
 ---
 
