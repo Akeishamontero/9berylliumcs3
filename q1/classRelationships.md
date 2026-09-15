@@ -18,7 +18,9 @@ Explanation: A device provides the hardware and operating system needed for appl
 ## Multiplicity
 Multiplicity: Many to Many (* : *)
 Explanation: There are several devices like phones, laptops, tablets, etc. that you can download applications on, there are many apps that contains different features, functions and limits.
+
 ---
+
 ## UML Class Relationship Diagram
 ![Class Relationship Diagram](images/classRelationshipDiagram.png)
 
