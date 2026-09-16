@@ -10,6 +10,8 @@ Description: My class can function for different needs; entertainment, communica
 
 #### Which existing attributes and methods will still be useful when it interacts with another class?
 
+The developer, name, price, available, launch(), download(), updateversion(versionNumber : string) attributes will remain useful. The settings, price, profile can also be used when they interact.
+
 ---
 
 ## New Related Class
@@ -18,6 +20,8 @@ Class: DEVICE
 Description: DEVICE is an electronic equipment that people use to do research, to communicate, to entertain or access digital services. Devices can vary in sizes, capabilities and intended purposes.
 
 #### Why should these two classes be connected?
+
+These two classes should be connected because in a DEVICE there is made up of many APPS. The APPS have different features, usages and limits to store and tell information. While a DEVICE is the thing you need to have to have apps, this downloads, launches and other functions that connects these two.
 
 ---
 
