@@ -79,5 +79,13 @@ object2.display_info()
 print("Object 3:")
 object3.display_info()
 
+class DEVICE:
+
+    def __init__(self, device_name: str, device_type: str, brand: str, storage: int):
+        self.device_name = device_name
+        self.device_type = device_type
+        self.brand = brand
+        self.__storage = storage
+        self.__APPS_LIST = []
 
 
