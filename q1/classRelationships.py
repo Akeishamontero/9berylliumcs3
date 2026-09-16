@@ -88,4 +88,26 @@ class DEVICE:
         self.__storage = storage
         self.__APPS_LIST = []
 
+   def ADD_APPS(self, app: APPS):
+        """Adds an app to the device."""
+        self.__APPS_LIST.append(app)
+        print(app.name, "has been added to", self.device_name)
+
+   def CHECK_APPS(self, app: APPS):
+        """Checks if an app is installed on the device."""
+        if app in self.__APPS_LIST:
+            print(app.name, "is installed on", self.device_name)
+        else:
+            print(app.name, "is not installed on", self.device_name)
+
+   def SEARCH_APPS(self, app_name: str):
+        """Searches for an app installed on the device."""
+        for app in self.__APPS_LIST:
+            if app.name.lower() == app_name.lower():
+                print("App found:", app.name)
+                print("Developer:", app.developer)
+                print("Price:", app.price)
+                return
+
+
 
