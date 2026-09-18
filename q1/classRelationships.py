@@ -109,5 +109,54 @@ class DEVICE:
                 print("Price:", app.price)
                 return
 
+     print(app_name, "was not found on", self.device_name)
+
+#Objects
+
+device1 = DEVICE("My Phone", "Smartphone", "Samsung", 128)
+
+#run
+
+print("--- BEFORE RELATIONSHIP ---")
+
+print("Device created independently:")
+print("Device Name:", device1.device_name)
+print("Device Type:", device1.device_type)
+print("Brand:", device1.brand)
+print("Storage:", device1._DEVICE__storage, "GB")
+print()
+
+
+print("Apps created independently:")
+print(" -", object1.name)
+print(" -", object2.name)
+print(" -", object3.name)
+print()
+
+print("--- BUILDING RELATIONSHIP ---")
+
+print("Adding apps to", device1.device_name)
+
+device1.ADD_APPS(object1)
+device1.ADD_APPS(object2)
+device1.ADD_APPS(object3)
+print()
+
+print("--- AFTER RELATIONSHIP ---")
+
+device1.CHECK_APPS(object1)
+device1.CHECK_APPS(object2)
+device1.CHECK_APPS(object3)
+print()
+
+print("--- SEARCHING FOR APP ---")
+
+device1.SEARCH_APPS("Minecraft")
+
+print()
+
+device1.SEARCH_APPS("Roblox")
+
+print()
 
 
