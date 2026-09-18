@@ -47,6 +47,7 @@ Explanation: A DEVICE is an electronic that you can download applications on, th
 
 ## Test Run
 ![Relationship Test Run](images/relationshipTestRun.png)
+![Relationship Test Run](images/relationshipTestRun2.png)
 
 ## Object Relationship Diagram
 ![Object Relationship Diagram](images/objectRelationshipDiagram.png)
