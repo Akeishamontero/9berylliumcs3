@@ -2,9 +2,9 @@
 
 ## Previous Activities
 
-[classAttrib](q1/classAttributesMethods.md)
+[classAttrib](classAttributesMethods.md)
 
-[classRel](q1/classRelationships.md)
+[classRel](classRelationships.md)
 
 ## Existing System Description:
 
