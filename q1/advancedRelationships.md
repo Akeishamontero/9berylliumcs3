@@ -17,13 +17,14 @@ Class 2: DEVICE
 ###  What problem or limitation exists in your current design?
 
 My current design uses an association between DEVICE and APPS, where one DEVICE can contain many APPS. But the problem here is all apps are treated as the same type of object. It does not distinguish between different categories of apps, if it is educational, provides entertainment or communication-related. This can make the system less organized and make it hard to add features that are specific to certain types of apps. My current design also does not show a stronger HAS-A relationship between the DEVICE and the APPS. 
+
 ## Inheritance Relationship
 
-Parent:
+Parent: APPS
 
-Child:
+Child: ENTERTAINMENT_APP
 
-Explanation:
+Explanation: ENTERTAINMENT_APP IS-A type of APPS object because it has common characteristics of an APP, such as a name, developer, price, availability and version. The parent class is related to the child class because it specializes the parent class by adding entertainment information and functionality, like it's entertainment genre and content.
 
 ## Inheritance UML
 
