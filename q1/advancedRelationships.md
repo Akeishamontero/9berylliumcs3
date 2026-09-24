@@ -28,7 +28,7 @@ Explanation: ENTERTAINMENT_APP IS-A type of APPS object because it has common ch
 
 ## Inheritance UML
 
-[Inheritance](inheritanceDiagram.png)
+[Inheritance](q1/images/InheritanceDiagram.png)
 
 ## Composition/Aggregation
 
