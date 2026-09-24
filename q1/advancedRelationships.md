@@ -32,13 +32,13 @@ Explanation: ENTERTAINMENT_APP IS-A type of APPS object because it has common ch
 
 ## Composition/Aggregation
 
-Relationship:
+Relationship: Composition
 
-Class containing another object: 
+Class containing another object: ENTERTAINMENT_APP
 
-Contained object: 
+Contained object: ENTERTAINMENT_CONTENT
 
-Explanation:
+Explanation: This has a composition relationship because the ENTERTAINMENT_APP creates its own ENTERTAINMENT_CONTENT object, so the content is owned by the app in the system.
 
 ## Advanced UML Diagram
 
