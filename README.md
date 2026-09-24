@@ -29,3 +29,6 @@ README.MD
 ### OOPAct Part 3
 [View my OOPAct Part 3 Exercise!](q1/classRelationships.md)
 
+
+### OOPAct Part 4
+[View my OOPAct Part 4 Exercise!](q1/advancedRelationships.md)
