@@ -51,6 +51,7 @@ Explanation: This has a composition relationship because the ENTERTAINMENT_APP c
 ## Test Run
 
 ![Test](images/advancedTestRun.png)
+![Test](images/advancedTestRun2.png)
 
 ## Object Diagram
 
