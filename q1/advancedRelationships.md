@@ -69,7 +69,7 @@ Answers:
 
 ### How did inheritance reduce duplicate code? Identify attributes or methods that were reused.
 
-Inheritance reduces the duplicate code by not having to rewrite the attributes and methods already found in the APPS class. The attributes that were reused are name, developer, price, available, settings and profile. It not only reuses attributes but also methods such as Launch(), Download(), Update_version(), and Display_info().
+Inheritance reduces the duplicate code by not having to rewrite the attributes and methods already found in the APPS class. The attributes that were reused are name, developer, price, available, settings and profile. It not only reuses attributes but also methods such as Launch(), Download(), Updateversion(), and Display_info().
 
 ### Why is your HAS-A relationship Composition or Aggregation? Explain the lifecycle relationship between the two objects.
 
