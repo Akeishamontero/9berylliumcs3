@@ -36,9 +36,9 @@ Relationship: Composition
 
 Class containing another object: ENTERTAINMENT_APP
 
-Contained object: CONTENT
+Contained object: CATALOG
 
-Explanation: This has a composition relationship because the ENTERTAINMENT_APP creates its own CONTENT object, so the content is owned by the app in the system.
+Explanation: This has a composition relationship because the ENTERTAINMENT_APP creates its own CATALOG object, so the catalog is owned by the app in the system.
 
 ## Advanced UML Diagram
 
