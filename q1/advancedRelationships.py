@@ -55,14 +55,14 @@ class CATALOG:
 
 class ENTERTAINMENT_APP(APPS):
 
-    def __init__(self, name, developer, price, available, settings, profile, genre, content, rating):
+    def __init__(self, name, developer, price, available, settings, profile, genre, content_type, rating):
       
         super().__init__(name, developer, price, available, settings, profile)
         self.genre = genre
-        self.content = content
+        self.content_type = content_type
         self.rating = rating
 
-        self.catalog = CATALOG("Entertainment Catalog", "Games", 1)
+        self.catalog = CATALOG("Entertainment Catalog", "Games", "Public", 0)
 
     def Rate_App(self, new_rating):
         self.rating = new_rating
@@ -77,15 +77,51 @@ class ENTERTAINMENT_APP(APPS):
          print("Content Type:", self.content_type)
          print("Rating:", self.rating)
 
-   def display_catalog(self):
+    def display_catalog(self):
          self.catalog.display_catalog()
 
 #OBJECTS
 
-entertainment_object1 = ENTERTAINMENT_APP("Among Us", "Innersloth", 4.99, True, "Light Mode", "Player467", "Party Game", "Online Multiplayer", 4.5)
-entertainment_object2 = ENTERTAINMENT_APP("Minecraft", "Mojang", 6.99, True, "Dark Mode", "Gamergirl123", "Sandbox", "Video Game", 4.8)
-entertainment_object3 = ENTERTAINMENT_APP("TikTok", "Zhang Yiming", 0.00, True, "Dark Mode", "Starrynights11", "Social Entertainment", "Short Videos", 4.3)
+entertainment1 = ENTERTAINMENT_APP("Among Us", "Innersloth", 4.99, True, "Light Mode", "Player467", "Party Game", "Online Multiplayer", 4.5)
+entertainment2 = ENTERTAINMENT_APP("Minecraft", "Mojang", 6.99, True, "Dark Mode", "Gamergirl123", "Sandbox", "Video Game", 4.8)
+entertainment3 = ENTERTAINMENT_APP("TikTok", "Zhang Yiming", 0.00, True, "Dark Mode", "Starrynights11", "Social Entertainment", "Short Videos", 4.3)
 
+#TEST RUN
 
-         
+print("===== TEST 1 — INHERITANCE =====")
+print("\nEntertainment App 1:")
+entertainment1.display_entertainment_info()
+print("\nEntertainment App 2:")
+entertainment2.display_entertainment_info()
+print("\nEntertainment App 3:")
+entertainment3.display_entertainment_info()
 
+print("=====INHERITED METHODS=====")
+print("\nLaunching Among Us:")
+entertainment1.Launch()
+print("\nDownloading Minecraft:")
+entertainment2.Download()
+print("\nLaunching TikTok:")
+entertainment3.Launch()
+
+print("=====ENTERTAINMENT APP=====")
+print("\nRating Among Us:")
+entertainment1.Rate_App(4.7)
+print("\nAdding Minecraft to favorites:")
+entertainment2.ADD_TO_FAVORITES()
+print("\nAdding TikTok to favorites:")
+entertainment3.ADD_TO_FAVORITES()
+
+print("=====TEST 2 - COMPOSITION=====")
+print("\nCatalog belonging to Among Us:")
+entertainment1.display_catalog()
+print("\nCatalog belonging to Minecraft:")
+entertainment2.display_catalog()
+print("\nCatalog belonging to TikTok:")
+entertainment3.display_catalog()
+
+print("=====CATALOG UPDATES=====")
+print("\nUpdating Among Us catalog:")
+entertainment1.catalog.update_catalog()
+print("\nUpdated Among Us catalog:")
+entertainment1.display_catalog()
