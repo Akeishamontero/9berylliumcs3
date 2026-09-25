@@ -24,7 +24,6 @@ class APPS:
  def get_settings(self):
      return self.__settings
 
-
  def display_info(self):
      print("App Name:", self.name)
      print("Developer:", self.developer)
