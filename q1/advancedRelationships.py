@@ -79,6 +79,12 @@ class ENTERTAINMENT_APP(APPS):
 
    def display_catalog(self):
          self.catalog.display_catalog()
-        
+
+#OBJECTS
+
+entertainment_object1 = ENTERTAINMENT_APP("Among Us", "Innersloth", 4.99, True, "Light Mode", "Player467", "Party Game", "Online Multiplayer", 4.5)
+entertainment_object2 = ENTERTAINMENT_APP("Minecraft", "Mojang", 6.99, True, "Dark Mode", "Gamergirl123", "Sandbox", "Video Game", 4.8)
+entertainment_object3 = ENTERTAINMENT_APP("TikTok", "Zhang Yiming", 0.00, True, "Dark Mode", "Starrynights11", "Social Entertainment", "Short Videos", 4.3)
+
          
 
