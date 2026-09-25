@@ -57,11 +57,9 @@ Explanation: This has a composition relationship because the ENTERTAINMENT_APP c
 
 ![Objects](images/advancedObjectDiagram.png)
 
-
+---
 ## Reflection
 Answers:
-
-
 
 ### Why did you choose your inheritance relationship? Explain why your child class is a type of your parent class.
 
