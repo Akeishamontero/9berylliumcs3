@@ -37,6 +37,3 @@ a1.set_balance(-100)
 print("Account Number:", a1.get_account_number)
 print("Balance:", f"{a1.get_balance():.2f}")
 
-Output:
-
-[Sg8_Encapsulation](q2/images/sg_encapsulation.png).
