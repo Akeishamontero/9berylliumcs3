@@ -32,3 +32,10 @@ README.MD
 
 ### OOPAct Part 4
 [View my OOPAct Part 4 Exercise!](q1/advancedRelationships.md)
+---
+
+# Quarter 2
+## Activities
+
+### Study Guide 8 - Encapsulation
+[View my Encapsulation Exercise!](q2/sg_encapsulation.py)
