@@ -38,4 +38,4 @@ README.MD
 ## Activities
 
 ### Study Guide 8 - Encapsulation
-[View my Encapsulation Exercise!](q2/sg_encapsulation.py)
+[View my Encapsulation Exercise!](q2/sg8_encapsulation.py)
