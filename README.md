@@ -8,7 +8,7 @@ README.MD
 
 ---
 
-# Quarter 1
+# Quarter 1!
 ## Activities
 
 ### Computational Thinking Skills
@@ -32,10 +32,9 @@ README.MD
 
 ### OOPAct Part 4
 [View my OOPAct Part 4 Exercise!](q1/advancedRelationships.md)
-
 ---
 
-# Quarter 2
+# Quarter 2!
 ## Activities
 
 ### Study Guide 8 - Encapsulation
