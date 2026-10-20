@@ -40,4 +40,5 @@ README.MD
 ### Study Guide 8 - Encapsulation
 [View my Encapsulation Exercise!](q2/sg8_encapsulation.py)
 
+### Study Guide 9 - Inheritance: Library Management System 
 [View my Inheritance Exercise!](q2/Library_management_system.py)
