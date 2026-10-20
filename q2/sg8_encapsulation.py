@@ -14,7 +14,7 @@ class BankAccount:
      
     def set_balance(self, balance):
         if balance < 0:
-            raise ValueError("Balance must be not be a negative number.")        
+            ("Balance must be not be a negative number.")        
         return
         self.__balance = float(f"{balance:.2f}")
 
