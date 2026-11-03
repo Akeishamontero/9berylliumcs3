@@ -1,31 +1,52 @@
-class Animal: 
-  def __init__(self, name): 
-    self.__name = name
-   
-  def eat(self):
-    print(f"{self.name} is eating.")
-        
-  def make_sound(self):
-    print(f"{self.name} makes a sound.")
+class Animal: #Parent Class
+  def __init__(self, name): #Initialize the name attribute
+    self.__name = name 
+    
+#METHODS
+  def feed(self): #Define feed method
+    print(f"{self.__name} is eating fed.")
 
-class Lion(Animal):
-  def eat(self):
-    print(f"{self.name} eats fresh meat.")
+  def make_sound(self): #Define make_sound method
+    print(f"{self.__name} makes a sound.")
 
-  def make_sound(self):
-    print(f"{self.name} roars loudly!")
+class Lion(Animal): #Child Class
+    
+  def make_sound(self): #Override make_sound method
+    print(f"{self._Animal__name} roars loudly!")
 
-class Elephant(Animal):
-  def eat(self):
-    print(f"{self.name} eats grass and fruits.")
+  def feed(self): #Override feed method
+    print(f"{self._Animal__name} eats fresh meat.")
+    
+class Elephant(Animal): #Child Class
+    
+  def make_sound(self): #Override make_sound method
+    print(f"{self._Animal__name} trumpets!")
+    
+  def feed(self): #Override feed method
+    print(f"{self._Animal__name} eats grass and fruits.")
+    
+class Monkey(Animal): #Child Class
+    
+  def make_sound(self): #Override make_sound method
+    print(f"{self._Animal__name} chatters!")
+    
+  def feed(self): #Override feed method
+    print(f"{self._Animal__name} eats bananas.")
 
-  def make_sound(self):
-    print(f"{self.name} trumpets!")
+#CREATE OBJECTS
+lion = Lion("Simba")
+elephant = Elephant("Dumbo")
+monkey = Monkey("George")
 
-class Monkey(Animal):
-    def eat(self):
-      print(f"{self.name} eats bananas.")
+#PRINT METHODS
+lion.make_sound()
+lion.feed()
+print("------") #add break line for better readability
 
-    def make_sound(self):
-      print(f"{self.name} chatters!")
+elephant.make_sound()
+elephant.feed()
+print("------") #add break line for better readability
 
+monkey.make_sound()
+monkey.feed() 
+print("------") #add break line for better readability
