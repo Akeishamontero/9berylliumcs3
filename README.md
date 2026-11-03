@@ -42,3 +42,7 @@ README.MD
 
 ### Study Guide 9 - Inheritance: Library Management System 
 [View my Inheritance Exercise!](q2/Library_management_system.py)
+
+### Study Guide 10 - Method Overriding: Zoo Management System
+[View my Method Overriding Exercise!](q2/sg10_methodoverriding.py)
+
