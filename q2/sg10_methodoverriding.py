@@ -1,3 +1,31 @@
 class Animal: 
   def __init__(self, name): 
-  self.__name = name
+    self.__name = name
+   
+  def eat(self):
+    print(f"{self.name} is eating.")
+        
+  def make_sound(self):
+    print(f"{self.name} makes a sound.")
+
+class Lion(Animal):
+  def eat(self):
+    print(f"{self.name} eats fresh meat.")
+
+  def make_sound(self):
+    print(f"{self.name} roars loudly!")
+
+class Elephant(Animal):
+  def eat(self):
+    print(f"{self.name} eats grass and fruits.")
+
+  def make_sound(self):
+    print(f"{self.name} trumpets!")
+
+class Monkey(Animal):
+    def eat(self):
+      print(f"{self.name} eats bananas.")
+
+    def make_sound(self):
+      print(f"{self.name} chatters!")
+
