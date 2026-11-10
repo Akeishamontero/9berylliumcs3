@@ -1,0 +1,20 @@
+class Patient: #PARENT CLASS
+    def __init__(self, name, bill_amount):  #Initialize the attributes
+        self.name = name
+        self.bill_amount = bill_amount
+
+#METHODS
+    def get_name(self):
+        return self.name
+    
+    def set_name(self, name):
+        self.name = name 
+        
+    def get_bill_amount(self):
+        return self.bill_amount
+    
+    def set_bill_amount(self, bill_amount):
+        self.bill_amount = bill_amount
+    
+    def calculate_bill():
+        
