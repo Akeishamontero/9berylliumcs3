@@ -46,3 +46,8 @@ README.MD
 ### Study Guide 10 - Method Overriding: Zoo Management System
 [View my Method Overriding Exercise!](q2/sg10_methodoverriding.py)
 
+### Study Guide 11 - Polymorphism Activity 1
+[View my 1st Polymorphism Exercise!](q2/sg11_polymorphism1.py)
+
+### Study Guide 11 - Polymorphism Activity 2
+[View my 2nd Polymorphism Exercise!](q2/sg11_polymorphism2.py)
