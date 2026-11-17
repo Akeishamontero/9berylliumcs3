@@ -50,4 +50,5 @@ README.MD
 [View my 1st Polymorphism Exercise!](q2/sg11_polymorphism1.py)
 
 ### Study Guide 11 - Polymorphism Activity 2
-[View my 2nd Polymorphism Exercise!](q2/sg11_polymorphism2.py)
+[View my 2nd Polymorphism Exercise! (Python)](q2/sg11_polymorphism2.py)
+[View my 2nd Polymorphism Exercise! (Questions)](q2/sg11_polymorphism_2.md)
